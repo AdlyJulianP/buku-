@@ -1,0 +1,173 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 375381,
+            "type": "VEC3",
+            "max": [
+                0.9895129799842834,
+                0.4002560079097748,
+                0.7135940194129944
+            ],
+            "min": [
+                -0.9998000264167786,
+                -0.40902799367904663,
+                -0.7217280268669128
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 375381,
+            "type": "VEC3",
+            "max": [
+                0.9999998807907104,
+                1.0,
+                0.9999948740005493
+            ],
+            "min": [
+                -0.9999994039535522,
+                -1.0,
+                -0.9999995231628418
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 375381,
+            "type": "VEC2",
+            "max": [
+                0.9982200264930725,
+                0.9982200264930725
+            ],
+            "min": [
+                0.0017800000496208668,
+                0.004426002502441406
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 1924041,
+            "type": "SCALAR",
+            "max": [
+                375380
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 19708356,
+            "uri": "pepohonan dan sungai adly_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 4504572,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 4504572,
+            "byteLength": 4504572,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 9009144,
+            "byteLength": 3003048,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 12012192,
+            "byteLength": 7696164,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/image_0.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "Mat_1",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.800000011920929
+            },
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "pepohonan dan sungai adly",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "mesh_0",
+            "mesh": 0
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        }
+    ],
+    "scene": 0
+}

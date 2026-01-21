@@ -1,0 +1,38 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-aframe.prod.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangau Dan Merpati</title>
+ </head>
+ <body>
+    <a-scene mindar-image="imageTargetSrc: ./assets/targets.mind;" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+        <a-assets>
+            <a-asset-item id="bangau-model" src="./asset_3d/merpati adly.gltf"></a-asset-item>
+            <a-asset-item id="merpati-model" src="./asset_3d/bangau nazwa.gltf"></a-asset-item>
+        </a-assets>
+
+        <a-mindar-image-target index="0">
+            <a-entity 
+                gltf-model="#bangau-model" 
+                scale="0.02 0.02 0.02" 
+                position="0 0 0" 
+                rotation="0 0 0">
+            </a-entity>
+        </a-mindar-image-target>
+
+        <a-mindar-image-target index="1">
+            <a-entity 
+                gltf-model="#merpati-model" 
+                scale="0.05 0.05 0.05" 
+                position="0 0 0" 
+                rotation="0 0 0">
+            </a-entity>
+        </a-mindar-image-target> 
+
+        <a-entity camera></a-entity>
+    </a-scene>
+ </body>
+ </html> 

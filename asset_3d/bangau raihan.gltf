@@ -1,0 +1,173 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 238305,
+            "type": "VEC3",
+            "max": [
+                0.8531140089035034,
+                0.9378200173377991,
+                0.9995650053024292
+            ],
+            "min": [
+                -0.8546069860458374,
+                -0.9384670257568359,
+                -0.9997270107269287
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 238305,
+            "type": "VEC3",
+            "max": [
+                0.9999998807907104,
+                1.0,
+                0.9999862909317017
+            ],
+            "min": [
+                -0.9999874830245972,
+                -1.0,
+                -0.9998824596405029
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 238305,
+            "type": "VEC2",
+            "max": [
+                0.9994239807128906,
+                0.9994239807128906
+            ],
+            "min": [
+                0.0005760000203736126,
+                0.009853005409240723
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 1333038,
+            "type": "SCALAR",
+            "max": [
+                238304
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 12957912,
+            "uri": "bangau raihan_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 2859660,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2859660,
+            "byteLength": 2859660,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5719320,
+            "byteLength": 1906440,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 7625760,
+            "byteLength": 5332152,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/image_0.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "Mat_1",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.800000011920929
+            },
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "bangau raihan",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "mesh_0",
+            "mesh": 0
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        }
+    ],
+    "scene": 0
+}

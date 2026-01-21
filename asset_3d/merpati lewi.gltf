@@ -1,0 +1,173 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 144180,
+            "type": "VEC3",
+            "max": [
+                0.4262250065803528,
+                0.5468659996986389,
+                0.9996479749679565
+            ],
+            "min": [
+                -0.46451300382614136,
+                -0.5479239821434021,
+                -1.0015510320663452
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 144180,
+            "type": "VEC3",
+            "max": [
+                0.9999973773956299,
+                0.9998689889907837,
+                0.9998065829277039
+            ],
+            "min": [
+                -0.9999856948852539,
+                -0.9998763799667358,
+                -0.9999666213989258
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 144180,
+            "type": "VEC2",
+            "max": [
+                0.9992560148239136,
+                0.9992560148239136
+            ],
+            "min": [
+                0.0007440000190399587,
+                0.11787700653076172
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 766608,
+            "type": "SCALAR",
+            "max": [
+                144179
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 7680192,
+            "uri": "merpati lewi_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 1730160,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1730160,
+            "byteLength": 1730160,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3460320,
+            "byteLength": 1153440,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 4613760,
+            "byteLength": 3066432,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/image_0.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "Mat_1",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.800000011920929
+            },
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "merpati lewi",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "mesh_0",
+            "mesh": 0
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        }
+    ],
+    "scene": 0
+}
