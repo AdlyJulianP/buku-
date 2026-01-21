@@ -1,31 +1,47 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
-    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-aframe.prod.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bangau Dan Merpati</title>
- </head>
- <body>
-    <a-scene mindar-image="imageTargetSrc: ./image_tracking/targets.mind;" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
-        <a-assets>
-            <a-asset-item id="bangau-model" src="./asset_3d/merpati adly.gltf"></a-asset-item>
-        </a-assets>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multi Target AR</title>
+  </head>
 
-        <a-mindar-image-target index="0">
-            <a-entity 
-                gltf-model="#bangau-model" 
-                scale="0.02 0.02 0.02" 
-                position="0 0 0" 
-                rotation="0 0 0">
-            </a-entity>
-        </a-mindar-image-target>
+  <body>
+    <a-scene
+      mindar-image="imageTargetSrc: ./image_tracking/targets.mind;"
+      vr-mode-ui="enabled: false"
+      device-orientation-permission-ui="enabled: false"
+    >
+      <!-- ASSETS -->
+      <a-assets>
+         <a-asset-item id="bangau-model" src="./asset_3d/merpati adly.gltf"></a-asset-item>
+         <a-asset-item id="merpati-model" src="./asset_3d/bangau nazwa.gltf"></a-asset-item>
+      </a-assets>
 
-        
-       
+      <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
+
+      <!-- TARGET 1 -->
+      <a-entity mindar-image-target="targetIndex: 0">
+        <a-gltf-model
+          src="#bangau-model"
+          position="0 0 0"
+          scale="1 1 1"
+          rotation="0 0 0"
+        ></a-gltf-model>
+      </a-entity>
+
+      <!-- TARGET 2 -->
+      <a-entity mindar-image-target="targetIndex: 1">
+        <a-gltf-model
+          src="#merpati-model"
+          position="0 0 0"
+          scale="1 1 1"
+          rotation="0 0 0"
+        ></a-gltf-model>
+      </a-entity>
+
     </a-scene>
- </body>
-
- </html> 
-
+  </body>
+</html>
